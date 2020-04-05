@@ -25,6 +25,7 @@ jobs:
         run: |
           python utils/update_countries.py
           python utils/update_death_countries.py
+          python utils/update_recovered_countries.py
           git config --global user.name 'yudivian'
           git config --global user.email 'yudivian@gmail.com'
           git add .
